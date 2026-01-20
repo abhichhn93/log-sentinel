@@ -16,6 +16,10 @@ python dummy_log_generator.py
 python sentinel.py --input logs/dummy_server_log.txt --out report.md
 ```
 
+Notes:
+- `sample_logs/` contains static demo data for review.
+- `logs/` is generated at runtime by `dummy_log_generator.py`.
+
 ## Sample output
 ```text
 # Log Sentinel Report
