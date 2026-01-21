@@ -19,6 +19,12 @@ python sentinel.py --input logs/dummy_server_log.txt --out report.md
 Notes:
 - `sample_logs/` contains static demo data for review.
 - `logs/` is generated at runtime by `dummy_log_generator.py`.
+Demo uses small sample logs for clarity; the same analysis scales to large logs.
+
+## Demo artifacts
+- `assets/report_sample.md` is generated from `sample_logs/sample_server_log.txt`.
+- `assets/console_output.txt` captures the CLI output for the same run.
+- `assets/architecture_notes.md` summarizes the design.
 
 ## Sample output
 ```text
